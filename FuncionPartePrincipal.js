@@ -12,7 +12,7 @@ function funcionCalcular() {
     serv3="";
     serv4="";
     switch (funcionCalcular) {
-        case expression:if (serv1.checked) {
+        case expression: (serv1.checked) {
             (serv1*350;)
             return "Tu resultado es este" + serv1;
         }
