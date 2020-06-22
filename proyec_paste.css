@@ -1,0 +1,357 @@
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+body{
+  background-color:darkgray;
+}
+
+.clearfix{
+  content='';
+  display:block;
+  clear:both;
+}
+
+.nav1{
+  background-color: #572364;
+  padding:15px;
+  margin:0 auto;
+  width:98%;
+  text-align:center;
+  height:auto;
+  overflow:hidden;
+}
+
+.nav1 .img{
+  float:left;
+  font-weight:bold;
+  color:white;
+  font-size:1.4em;
+  margin-top:0 auto;
+  position:relative;
+  bottom:-2px;
+  text-transform:uppercase;
+  border-bottom:1px solid white;
+  border-top:1px solid white;
+}
+
+.barraLinks{
+  float:right;
+  position:relative;
+  bottom:-3px;
+  right:30px;
+}
+
+.barraLinks a{
+  color:white;
+  font-weight:bold;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-decoration:none;
+  margin-left:10px;
+}
+
+.barraLinks a:hover{
+  background-color:white;
+  color: #572364;
+}
+
+
+
+
+
+/*Productos*/
+section.productos{
+  background-color:white;
+  width:90%;
+  margin:30px auto;
+  margin-bottom:10px;
+  height:auto;
+  overflow:hidden;
+  padding:30px;
+  border:2px solid #572364;
+    border-top: 30px solid #572364;
+
+}
+
+section.productos h2{
+color:#572364;
+font-weight:bold;
+font-size:1.6em;
+}
+
+section.productos h3{
+  color:darkred;
+}
+
+section.productos h4{
+  color:red;
+  border-bottom: 2px solid darkred;
+  width:60%;
+  margin:0 auto;
+}
+
+section.productos .productoDiv{
+  width:45%;
+  float:left;
+  text-align:center;
+  margin-left:10px;
+  background-color:white;
+  border:2px solid gray;
+  padding:10px 0px;
+  border-top: 30px solid #572364;
+}
+
+@media only screen and (min-width:1100px){
+section.productos .productoDiv{
+   width:23%;
+  }
+}
+
+@media only screen and (max-width:600px){
+  section.productos .productoDiv{
+     width:100%;
+    }
+}
+
+section.productos .productoDiv:hover{
+  background-color: #E4B3CA;
+}
+
+section.productos .productoDiv img{
+  width:150px;
+  height:120px;
+}
+
+
+
+
+
+/*Resumen pagar*/
+.resumen{
+  width:80%;
+  margin:0 auto;
+  background-color:white;
+  height:auto;
+  overflow:hidden;
+  text-align:center;
+  padding:30px;
+  border:4px solid #572364;
+  border-top:15px solid #572364;
+
+}
+
+.resumen:hover{
+  background-color:#E4B3CA;
+}
+
+.contenedorResumen{
+    background-color:white;
+    width:70%;
+    margin:0 auto;
+
+}
+
+.contenedorResumen > div{
+  float:left;
+  width:100%;
+}
+
+@media only screen and (min-width:768px){
+  .contenedorResumen > div{
+    float:left;
+    width:50%;
+  }
+}
+
+
+.productosAComprar h1{
+  color:#572364;
+  font-size:bold;
+}
+
+.productosAComprar input{
+  background-color: #572368;
+  padding:10px 20px;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+.productosAComprar input:hover{
+  background-color:purple;
+  transform:scale(1.2);
+}
+
+.productosAComprar input:active{
+  transform:scale(0.8);
+}
+
+/*Total pagar*/
+
+.TotalPagar h1{
+  color:#572364;
+  font-size:bold;
+  text-transform:upperca
+
+}
+
+.TotalPagar input{
+  background-color: #572368;
+  padding:10px 20px;
+  color:white;
+  font-weight:bold;
+  border-radius:10%;
+}
+
+.TotalPagar input:hover{
+  background-color:purple;
+  transform:scale(1.2);
+}
+
+.TotalPagar input:active{
+  transform:scale(0.8);
+}
+
+
+#totalAPagar{
+  color:red;
+  font-weight:bold;
+  padding:20px;
+  font-size:1.8em;
+  border-bottom: 2px solid #572364;
+  margin-bottom:10px;
+  display:none;
+
+}
+
+
+
+
+/*footer*/
+
+.footer1{
+ background-color: rgba(3,3,3,0.8);
+
+ height:auto;
+ overflow:hidden;
+ padding:10px 30px;
+}
+
+
+.footer1 > div{
+  float:left;
+  width:100%;
+
+
+}
+
+
+@media only screen and (min-width:768px){
+  .footer1 > div{
+    width:33.3%;
+    text-align:center;
+  }
+}
+
+/*sobre_pasteleria*/
+.sobre_pasteleria h1{
+  color:white;
+
+}
+
+.sobre_pasteleria h1 span{
+  color: purple;
+
+}
+
+.sobre_pasteleria p{
+  color:white;
+
+}
+
+/*Rdedes_sociales*/
+
+.redes_sociales h1{
+  color:white;
+}
+
+.redes_sociales h1 span{
+  color: purple;
+}
+
+.fontawesomeRedesSociales{
+  text-align:center;
+  margin:0 auto;
+}
+
+.redes_sociales .fontawesomeRedesSociales{
+  text-align:center;
+    margin:0 auto;
+}
+
+.redes_sociales .fontawesomeRedesSociales i{
+  color:white;
+  font-size:1.8em;
+  text-align:center;
+  margin-left:20px;
+  margin-top:10px;
+
+}
+
+.redes_sociales .fontawesomeRedesSociales i:hover{
+  color:purple;
+  transform:scale(1.4);
+}
+/*publicidad*/
+
+.publicidad h1{
+  color:white;
+}
+
+
+
+/*Clases div de JS*/
+
+#resumenProductos{
+    width:0 auto;
+    height:0 auto;
+    overflow:hidden;
+}
+
+.pagarProductos{
+    color:red;
+    font-size:0.8em;
+    margin-bottom:30px;
+    font-weight:bold;
+    border-bottom: 1px solid #572364;
+    margin-bottom:10px;
+    display:none;
+}
+
+
+.finalP{
+    text-align:center;
+    font-weight:bold;
+    background-color:black;
+    color:white;
+    margin:0 auto;
+}
+
+/*Estilos para cualquier elemento*/
+
+h1.h1productos{
+  color: #572364;
+  font-weight:bold;
+  font-size:1.6em;
+  text-transform:uppercase;
+  text-align:center;
+  border-top: 2px solid #572364;
+  border-bottom: 1px solid #572364;
+  width:40%;
+  margin: 30px auto;
+}
