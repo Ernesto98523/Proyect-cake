@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="viewport">
+    <link href="proyec_paste.css" rel="stylesheet" type="text/css">
+
+    <title>Pasteleria</title>
+  </head>
+  <body>
+<nav class="nav1 ">
+  <div class="img"> La Mexicana </div>
+
+  <div class="barraLinks ">
+<a href="#">Adorno!</a>
+<a href="Pasteleriafrut.html">¡Nuestra fruta!</a>
+<a href="#">Carrito</a>
+  </div>
+</nav>
+
+
+<section class="productos ">
+
+  <div class="productosDiv">
+<h1 class="h1productos"> Bienvenido</h1>
+
+<!--producto1-->
+<div class="productoDiv" id="Divproducto1">
+  <h2>pastel 1 </h2>
+  <img src="Pas1.jpg" alt="pastel 1">
+  <h3>Precio</h3>
+  <h4 id="precio1">$350.00 MXN</h4>
+  <h3>Descripcion:</h3>
+  <h5>Pastel para 5 personas</h5>
+  <h5> Añadir al carrito: </h5>
+  <input type="number" min="0" id="producto1" name="producto1" placeholder="Numero a comprar de Productos" value="Calcular" onclick="Sumar()">
+</div>
+
+<!--producto2-->
+<div class="productoDiv" id="Divproducto2">
+  <h2>pastel 2</h2>
+  <img src="Pas2.jpg" alt="pastel 2">
+  <h3>Precio</h3>
+  <h4 id="precio2">$490.50 MXN</h4>
+  <h3>Descripcion:</h3>
+  <h5>Pastel para 7 personas</h5>
+  <h5> Añadir al carrito: </h5>
+
+  <input type="number" min="0" id="producto2" name="producto2" placeholder="Numero a comprar de Productos">
+</div>
+
+<!--producto3-->
+<div class="productoDiv" id="Divproducto3">
+  <h2>pastel 3</h2>
+<img src="Pas3.jpg" alt="pastel 3">
+  <h3>Precio</h3>
+  <h4 id="precio3">$600.00 MXN</h4>
+  <h3>Descripcion:</h3>
+  <h5>Pastel para 10 personas</h5>
+  <h5> Añadir al carrito: </h5>
+  <input type="number" min="0" id="producto3" name="producto3" placeholder="Numero a comprar de Productos">
+  </div>
+
+
+<!--producto4-->
+<div class="productoDiv" id="Divproducto4">
+  <h2>Pastel 4</h2>
+  <img src="Pas4.png" alt="pastel 4">
+  <h3>Precio</h3>
+  <h4 id="precio4">$670.99 MXN</h4>
+  <h3>Descripcion:</h3>
+  <h5>Pastel para 15 personas</h5>
+  <h5> Añadir al carrito: </h5>
+  <input type="number" min="0" id="producto4" name="producto4" placeholder="Numero a comprar de Productos">
+</div>
+
+</div><!--productosDiv-->
+
+</section>
+ <br/>
+<!--Resumen total y pagar -->
+<section class="resumen">
+
+<div class="contenedorResumen">
+
+
+  <!--Productos comprar-->
+  <div class="productosAComprar">
+    <h1>Carrito</h1>
+
+    <div id="resumenProductos"></div>
+
+    <input type="button" id="btncalcular" name="btncalcular" value="Calcular Precio">
+
+  </div>
+
+
+    <!--Productos Pagar-->
+  <div class="TotalPagar">
+    <h1>Total a pagar:</h1>
+
+    <div id="totalAPagar"></div>
+
+    <input type="submit" id="btnpagar" name="btnpagar" value="Pagar">
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<br/>
+<br/>
+<footer class="">
+
+<div class="footer1 clearfix">
+<div class="sobre_pasteleria">
+<h1> Sobre <span>La Mexicana</span></h1>
+<p>somos una fabrica de pasteles 100% mexicana con un sabor inmegorable!!</p>
+</div>
+<div class="redes_sociales">
+<h1> Redes <span>Sociales</span></h1>
+
+<div class="Lamexicana">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-whatsapp"></i>
+
+
+
+</div>
+
+
+
+</div>
+
+</div><!--footer1-->
+</footer>
+<p class="finalP"> &copy;Copyright @peregrina99jose<br/>
+    Creada por @peregrina99jose
+</p>
+<script src="FuncionPartePrincipal.js" type= "text/javascript"></script>
+  </body>
+
+</html>
