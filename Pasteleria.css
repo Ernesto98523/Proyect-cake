@@ -27,7 +27,7 @@ body{
 }
 
 .nav1 .img{
-  float:left;
+  float:right;
   font-weight:bold;
   color:white;
   font-size:1.4em;
@@ -40,10 +40,10 @@ body{
 }
 
 .barraLinks{
-  float:right;
-  position:relative;
+  float:left;
+  position:absolute;
   bottom:15px;
-  right:30px;
+  left:30px;
 }
 
 .barraLinks a{

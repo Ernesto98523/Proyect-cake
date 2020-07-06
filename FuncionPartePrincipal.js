@@ -1,24 +1,41 @@
-var serv1 =document.getElementById("producto1");
-var serv2=document.getElementById("producto2");
-var serv3=document.getElementById("producto3");
-var serv4=document.getElementById("producto4");
-var  kars= document.getElementById("btncalcular");
-var totiP=document.getElementById("btnpagar");
+function add(producto,price){
+ var bod = document.getElementById("tab")
+ console.log(bod)
+ var tr = document.createElement("tr");
 
-kars.addEventListener("onclick" funcionCalcular);
-function funcionCalcular() {
-    serv1="";
-    serv2="";
-    serv3="";
-    serv4="";
-    switch (funcionCalcular) {
-        case expression: (serv1.checked) {
-            (serv1*350;)
-            return "Tu resultado es este" + serv1;
-        }
+ //creando primer td
+ var td0= document.createElement("td");
+ var product = document.createTextNode(producto);
+ tr.appendChild(td0);
+ td0.appendChild(product);
 
-            break;
-        default:
+ //creando primer td
+ var td1 = document.createElement("td");
+ var value = document.createTextNode(price);
+ tr.appendChild(td1);
+ td1.appendChild(value);
 
-    }
+ bod.appendChild(tr)
+
+ console.log(tr);
+
+document.body.appendChild(bod)
+
+
+}
+function sumar(){
+   alert("Sumalo tu bendito vago, como si no sabe sumar")
+   event.preventDefault();
+   var productos1 = parseInt(productoVar.value, 10) || 0,
+       productos2 = parseInt(productoVar2.value, 10) || 0,
+       productos3 = parseFloat(productoVar3.value, 10) || 0,
+       productos4 = Number(productoVar4.value, 10) || 0;
+
+}
+switch (expression) {
+  case expression:
+
+    break;
+  default:
+
 }

@@ -1,9 +1,9 @@
 h1{
-    color: #06FFB7;
+    color: #FBFBFB;
     font-family: courier;
 }
 body{
-    background-color: #C596AC;
+    background-color: #FBFBFB;
 }
 h1{
   text-align:left;
@@ -25,17 +25,17 @@ th,td{
 }
 a{font:bold 15px Courier New;
 text-decoration: none;
-color: #f2f2f2;
+color: #FFFFFF;
 border: 2px solid #f2f2f2;
 padding: 10px 20px 10px 20px;
 border-radius: 5px;
 transition: background 10s, color 10s;
-background: #060F08;
+background: #572364;
 text-align:left;
 background-position: left;
 }
 a :hover{
-color: #0489B1;
+color: #DF8B25;
 background-position: left;
 }
 
